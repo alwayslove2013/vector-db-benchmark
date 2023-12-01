@@ -80,5 +80,17 @@ class MilvusConfigurator(BaseConfigurator):
         for index in collection.indexes:
             index.drop()
 
+        # index_params = {
+        #     "metric_type": "L2",
+        #     "index_type": "HNSW",
+        #     "params": {
+        #         "efConstruction": 360,
+        #         "M": 32,
+        #         # "metric_type": "L2",
+        #     },
+        # }
+        # print("index_params", index_params)
+        # collection.create_index(field_name="vector", index_params=index_params)
+
     def execution_params(self, distance, vector_size):
-        return {"normalize": distance == Distance.COSINE}
+        return {"normalize": False}

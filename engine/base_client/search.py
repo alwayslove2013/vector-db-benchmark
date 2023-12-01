@@ -68,7 +68,7 @@ class BaseSearcher:
             self.host, distance, self.connection_params, self.search_params
         )
         self.setup_search()
-
+        print('=====>top', top)
         search_one = functools.partial(self.__class__._search_one, top=top)
 
         if parallel == 1:
