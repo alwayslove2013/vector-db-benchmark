@@ -1,0 +1,22 @@
+{
+  "params": {
+    "dataset": "dbpedia-openai-1M-1536-angular",
+    "experiment": "milvus-cloud-query-1x-load",
+    "engine": "milvus",
+    "parallel": 200,
+    "config": {
+      "level": 1
+    }
+  },
+  "results": {
+    "total_time": 14.400090526993154,
+    "mean_time": 0.014497084915472079,
+    "mean_precisions": 0.94278,
+    "std_time": 0.058114777243848156,
+    "min_time": 0.002208332996815443,
+    "max_time": 0.5487196489993948,
+    "rps": 347.22003938985216,
+    "p95_time": 0.008337481700436914,
+    "p99_time": 0.34864176104150907
+  }
+}

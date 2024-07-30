@@ -1,0 +1,16 @@
+{
+  "params": {
+    "experiment": "milvus-cloud-default",
+    "engine": "milvus",
+    "dataset": "dbpedia-openai-1M-1536-angular",
+    "parallel": 2,
+    "batch_size": 100,
+    "index_type": "AUTOINDEX",
+    "index_params": {}
+  },
+  "results": {
+    "post_upload": {},
+    "upload_time": 954.4825538960013,
+    "total_time": 1642.8162352990003
+  }
+}

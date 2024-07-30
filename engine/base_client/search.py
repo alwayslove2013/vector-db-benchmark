@@ -68,6 +68,9 @@ class BaseSearcher:
         self.setup_search()
 
         search_one = functools.partial(self.__class__._search_one, top=top)
+        
+        # queries = [q for q in queries]
+        # queries = queries * 10
 
         if parallel == 1:
             start = time.perf_counter()
