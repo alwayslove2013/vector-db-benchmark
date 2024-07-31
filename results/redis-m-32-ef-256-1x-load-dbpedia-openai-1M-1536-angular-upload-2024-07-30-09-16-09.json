@@ -1,0 +1,17 @@
+{
+  "params": {
+    "experiment": "redis-m-32-ef-256-1x-load",
+    "engine": "redis",
+    "dataset": "dbpedia-openai-1M-1536-angular",
+    "parallel": 16,
+    "hnsw_config": {
+      "M": 32,
+      "EF_CONSTRUCTION": 256
+    }
+  },
+  "results": {
+    "post_upload": {},
+    "upload_time": 3299.039030447995,
+    "total_time": 3299.03906304299
+  }
+}
