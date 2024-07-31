@@ -1,0 +1,22 @@
+{
+  "params": {
+    "dataset": "dbpedia-openai-1M-1536-angular",
+    "experiment": "redis-m-32-ef-256-1x-load",
+    "engine": "redis",
+    "parallel": 7,
+    "config": {
+      "EF": 64
+    }
+  },
+  "results": {
+    "total_time": 5.961024173000624,
+    "mean_time": 0.008233698079996247,
+    "mean_precisions": 0.9762400000000001,
+    "std_time": 0.0007791467738556784,
+    "min_time": 0.0030229420008254237,
+    "max_time": 0.022553161998075666,
+    "rps": 838.7820372624208,
+    "p95_time": 0.009328206650752692,
+    "p99_time": 0.00985915918230603
+  }
+}

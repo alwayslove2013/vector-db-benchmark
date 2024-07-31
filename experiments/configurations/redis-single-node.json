@@ -1,6 +1,6 @@
 [
   {
-    "name": "redis-m-32-ef-256-1x",
+    "name": "redis-m-32-ef-256-1x-load",
     "engine": "redis",
     "connection_params": {},
     "collection_params": {
@@ -11,97 +11,97 @@
     },
     "search_params": [
       {
-        "parallel": 1,
+        "parallel": 2,
         "config": {
           "EF": 64
         }
       },
       {
-        "parallel": 10,
+        "parallel": 3,
         "config": {
           "EF": 64
         }
       },
       {
-        "parallel": 20,
+        "parallel": 4,
         "config": {
           "EF": 64
         }
       },
       {
-        "parallel": 40,
+        "parallel": 5,
         "config": {
           "EF": 64
         }
       },
       {
-        "parallel": 60,
+        "parallel": 6,
         "config": {
           "EF": 64
         }
       },
       {
-        "parallel": 100,
+        "parallel": 7,
         "config": {
           "EF": 64
         }
       },
       {
-        "parallel": 150,
+        "parallel": 8,
         "config": {
           "EF": 64
         }
       },
       {
-        "parallel": 200,
+        "parallel": 9,
         "config": {
           "EF": 64
         }
       },
       {
-        "parallel": 1,
+        "parallel": 2,
         "config": {
           "EF": 128
         }
       },
       {
-        "parallel": 10,
+        "parallel": 3,
         "config": {
           "EF": 128
         }
       },
       {
-        "parallel": 20,
+        "parallel": 4,
         "config": {
           "EF": 128
         }
       },
       {
-        "parallel": 40,
+        "parallel": 5,
         "config": {
           "EF": 128
         }
       },
       {
-        "parallel": 60,
+        "parallel": 6,
         "config": {
           "EF": 128
         }
       },
       {
-        "parallel": 100,
+        "parallel": 7,
         "config": {
           "EF": 128
         }
       },
       {
-        "parallel": 150,
+        "parallel": 8,
         "config": {
           "EF": 128
         }
       },
       {
-        "parallel": 200,
+        "parallel": 9,
         "config": {
           "EF": 128
         }

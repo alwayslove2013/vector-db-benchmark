@@ -23,4 +23,4 @@ python run.py --skip-upload --engines milvus-cloud-query-10x --datasets dbpedia-
 python run.py --engines redis-m-32-ef-256-1x-load --datasets dbpedia-openai-1M-1536-angular
 
 # 1x
-python run.py --engines redis-m-32-ef-256-1x --datasets dbpedia-openai-1M-1536-angular
+python run.py --skip-upload --engines redis-m-32-ef-256-1x --datasets dbpedia-openai-1M-1536-angular

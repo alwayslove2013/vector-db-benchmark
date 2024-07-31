@@ -19,12 +19,14 @@ for file_name in os.listdir(dir_path):
             item["experiment"] += f"""-ef-{item["config"]["EF"]}"""
         else:
             item = {**d["params"], **d["results"]}
+        # item["parallel"] = f"""conc-{item["parallel"]}"""
         data.append(item)
 
 logger.info(f"data - length: {len(data)}; data[0]: {data[0]}")
 
 def draw_chart(st, data, x:str, y:str):
     data.sort(key=lambda a: a["parallel"])
+    # data.sort(key=lambda a: a[x])
     
     fig = px.line(
         data,
@@ -35,6 +37,7 @@ def draw_chart(st, data, x:str, y:str):
         markers=True,
         height=600
     )
+    fig.update_traces(textposition="bottom right")
     st.plotly_chart(fig, use_container_width=True)
 
 st.set_page_config(

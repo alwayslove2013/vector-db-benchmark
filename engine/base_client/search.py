@@ -69,7 +69,7 @@ class BaseSearcher:
 
         search_one = functools.partial(self.__class__._search_one, top=top)
         
-        queries = [q for q in queries]
+        # queries = [q for q in queries]
         # queries = queries * 1
 
         if parallel == 1:
